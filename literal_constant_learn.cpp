@@ -24,5 +24,4 @@ int main() {
     cout << "c" << endl;
     cout << "nobody" << endl;
     return 0;
-
 }
