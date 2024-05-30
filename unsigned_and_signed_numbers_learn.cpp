@@ -11,4 +11,11 @@ int main() {
     cout << num1 << "," << num2 << endl;
     unsigned int num3 = -30;
     cout << num3 << endl;
+
+    unsigned long num4 = 50;
+
+//    u_short num5 = 100;
+//    u_int num6 = 200;
+//    u_long num7 = 1000;
+
 }
