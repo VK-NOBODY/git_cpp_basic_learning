@@ -11,6 +11,6 @@ H:\Applications\JetBrains\JetBrains_Applications\CLion\bin\cmake\win\x64\bin\cma
 -- Check for working CXX compiler: H:/Applications/JetBrains/JetBrains_Applications/CLion/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (1.0s)
+-- Configuring done (2.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: H:/Applications/JetBrains/JetBrains_Documents/JetBrains_CLionProjects/git_learning/cmake-build-debug
