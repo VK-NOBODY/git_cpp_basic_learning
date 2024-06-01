@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+
     // The function prompts the user to input two numbers, num_01 and num_02. It then compares them and assigns a string to the variable value, indicating whether num_01 is greater than or less than num_02. Finally, it prints the content of value and returns 0.
     int num_01, num_02;
     cout << "Please enter the value of num_01: " << endl;
