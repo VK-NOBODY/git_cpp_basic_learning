@@ -7,7 +7,11 @@ using namespace std;
 
 //Create a random integer generating function
 int random_number(int min, int max) {
-    return min + rand() % (max - min + 1);
+    random_device rd;                          // Obtain a random number from hardware
+    mt19937 gen(rd());                         // Seed the generator
+    uniform_int_distribution<> distr(min, max);
+    return distr(gen);
+//    return min + rand() % (max - min + 1);
 }
 
 
