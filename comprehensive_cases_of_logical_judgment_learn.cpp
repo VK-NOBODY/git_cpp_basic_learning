@@ -28,29 +28,50 @@ int main() {
     cout << "Please enter the guessed poker number: ";
     int guess;
     cin >> guess;
-    //Determine whether the guessed poker number is correct. If it is incorrect, ask for re-entering.
-    while (guess != number) {
-        cout << "The guessed poker number is incorrect, please re-enter: ";
-        cin >> guess;
+    if (guess != number) {//If the guessed number is not correct, enter the correct number
+        for (int i = 0; i < 2; ++i) {
+            cout << "The guessed poker number is incorrect, please re-enter: ";
+            cin >> guess;
+            if (guess == number) {
+                break;
+            } else if (i == 1) {
+                cout << "You have guessed the wrong card three times, please try again!" << endl;
+                return 0;
+            }
+        }
     }
-    //If the guessed poker card number is correct, the guessed poker card suit is required. If the guessed poker card suit is incorrect, re-enter is required.
-    cout << "Please enter the guessed poker color: ";
+    cout << "The guessed poker number is correct, please enter the guessed poker color: ";
     string guess_color;
     cin >> guess_color;
-    while (guess_color != color) {
-        cout << "The guessed poker card color is incorrect, please re-enter: ";
-        cin >> guess_color;
+    if (guess_color != color) {//If the guessed color is not correct, enter the correct color
+        for (int i = 0; i < 2; ++i) {
+            cout << "The guessed poker color is incorrect, please re-enter: ";
+            cin >> guess_color;
+            if (guess_color == color) {
+                break;
+            } else if (i == 1) {
+                cout << "You have guessed the wrong card three times, please try again!" << endl;
+                return 0;
+            }
+        }
     }
-    //If the guessed poker color is correct, then the guessed suit is required. If the guessed suit is incorrect, then re-enter is required.
-    cout << "Please enter the guessed poker suit: ";
+    cout << "The guessed poker color is correct, please enter the guessed poker suit: ";
     string guess_suit;
     cin >> guess_suit;
-    while (guess_suit != suit) {
-        cout << "The guessed poker suit is incorrect, please re-enter: ";
-        cin >> guess_suit;
+    if (guess_suit != suit) {
+        for (int i = 0; i < 2; ++i) {//If the guessed suit is not correct, enter the correct suit
+            cout << "The guessed pokersuit is incorrect, please re-enter: ";
+            cin >> guess_suit;
+            if (guess_suit == suit) {
+                break;
+            } else if (i == 1) {
+                cout << "You have guessed the wrong card three times, please try again!" << endl;
+                return 0;
+            }
+        }
     }
-    //The guessed poker suit is correct, then output the guess result
-    cout << "The guess result is: " << number << " " << color << " " << suit << endl;
-
-    return 0;
+//The guessed poker suit is correct, then output the guess result
+    cout << "The guess result is: " << number << " " << color << " " << suit <<
+         endl;
 }
+
