@@ -38,4 +38,5 @@
 #include "mutex"         // 互斥锁支持
 #include "future"        // 异步操作支持
 
-#include "cstring" //比較C語言
+#include "cstring"  //比較C語言
+#include "random" //隨機數支持
