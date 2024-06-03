@@ -6,14 +6,14 @@
 using namespace std;
 
 int main() {
-    int array[5];
+    int array[5];// declare array
 
-    array[0] = 1;
+    array[0] = 1;// initialize array
     array[1] = 2;
     array[2] = 3;
     array[3] = 4;
     array[4] = 5;
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++) {// print array
         cout << "Array: " << i << ",value: " << array[i] << "\t" << endl;
     }
     return 0;
