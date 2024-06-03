@@ -29,5 +29,8 @@ int main() {
         }
     }
     cout << "You got " << right_count << " right times" << endl;
+    for (int i = 0; i < 10; i++) {
+        cout << array[i] << endl;
+    }
     return 0;
 }

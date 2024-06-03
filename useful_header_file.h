@@ -2,11 +2,6 @@
 // Created by VULCA on 30/5/2024.
 //
 
-#ifndef GIT_HELLO_WORLD_USEFUL_HEADER_FILE_H
-#define GIT_HELLO_WORLD_USEFUL_HEADER_FILE_H
-
-#endif //GIT_HELLO_WORLD_USEFUL_HEADER_FILE_H
-
 #include "iostream"      // 标准输入输出流
 #include "iomanip"       // 输入输出流格式化
 #include "fstream"       // 文件输入输出
