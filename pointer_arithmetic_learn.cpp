@@ -32,6 +32,7 @@ int main() {
     cout << "The second element of the array is: " << *(vp + 1) << endl;
     cout << "The second element of the array is: " << v[1] << endl;
 
+    *(vp + 2) = 33;
     cout << "The third element of the array is: " << *(vp + 2) << endl;
     cout << "The third element of the array is: " << v[2] << endl;
 
