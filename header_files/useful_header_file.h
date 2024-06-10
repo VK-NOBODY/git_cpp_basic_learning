@@ -35,3 +35,4 @@
 
 #include "cstring"  //±ÈÝ^CÕZÑÔ
 #include "random" //ëS™C”µÖ§³Ö
+using namespace std;
