@@ -37,7 +37,10 @@ void swap_number(T &a, T &b) {
 void test_01() {
     int a = 10;
     int b = 20;
+    //1.自動類型推導
     swap_number(a, b);
+    //2.顯示指定類型
+    swap_number<int>(a, b);
 }
 
 int main() {
