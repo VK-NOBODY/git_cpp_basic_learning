@@ -3,6 +3,5 @@ project(git_learning)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(git_learning packaging-design_case_2-point_and_circle_relationship_learn.cpp
-        source_files/circle.cpp
-        source_files/point.cpp)
+add_executable(git_learning class_template_file_writing_learn.cpp
+        header_files/person.hpp)
